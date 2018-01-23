@@ -1,0 +1,34 @@
+/* normally I would use SCSS */
+
+
+/* tweaked from bootstrap 4 
+@media all and (min-width: 575px) { 
+
+}
+
+@media all and (min-width: 768px) { 
+
+} 
+
+@media all and (min-width: 991px) { 
+
+} 
+
+@media all and (min-width: 1199px) {
+
+} 
+*/
+
+
+.HCardPreview {
+    flex: 1;
+    background: #e1e4e7;
+}
+
+.HCardPreview__Card {
+    
+}
+
+
+@media all and (min-width: 1050px) {
+} 

@@ -1,0 +1,47 @@
+/* normally I would use SCSS */
+
+
+/* tweaked from bootstrap 4 
+@media all and (min-width: 575px) { 
+
+}
+
+@media all and (min-width: 768px) { 
+
+} 
+
+@media all and (min-width: 991px) { 
+
+} 
+
+@media all and (min-width: 1199px) {
+
+} 
+*/
+
+
+.HCard {
+    flex: 1;
+    width: 100%;
+    font-size: 12px;
+    background: #fff;
+    min-height: 3px;
+    display: flex;
+    align-items: stretch;
+
+}
+
+@media all and (min-width: 768px) { 
+
+    .HCard {
+    }
+} 
+
+@media all and (min-width: 1050px) {
+
+    .HCard {
+        width:  auto;
+        max-width: 1000px;
+        min-height: 620px;
+    }
+} 
