@@ -25,20 +25,13 @@
 }
 
 @media all and (min-width: 768px) { 
-
-} 
-
-@media all and (min-width: 1050px) {
-
     .HCard {
-
-        
-    flex: 1;
-    width: 100%;
-    font-size: 12px;
-    display: flex;
-    align-items: stretch;
-    font-family: 'Merriweather Sans', sans-serif;
+        flex: 1;
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+        align-items: stretch;
+        font-family: 'Merriweather Sans', sans-serif;
         width:  auto;
         max-width: 1000px;
         min-height: 620px;

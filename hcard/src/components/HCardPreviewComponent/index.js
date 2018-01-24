@@ -27,7 +27,11 @@ class HCardPreview extends Component {
 
           <div className="HCardPreview__header">
             <h3 className="HCardPreview__name">{`${name} ${surname}`}</h3>
-            <img src="/profile.png" className="HCardPreview__profile" />
+            <img
+              src="/profile.png"
+              className="HCardPreview__profile"
+              alt="profile picture"
+            />
           </div>
           <div className="HCardPreview__details">
             <PreviewInput label="EMAIL" value={email} />
