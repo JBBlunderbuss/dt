@@ -24,7 +24,6 @@ class HCardComponent extends Component {
   }
 
   handleChange = event => {
-    console.log(event.target.value, event.target.name);
     this.setState({ [event.target.name]: event.target.value });
   };
 

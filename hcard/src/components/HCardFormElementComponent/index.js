@@ -4,8 +4,8 @@ import './styles.css';
 export default ({ label, value, name, handleChange }) => {
   return (
     <div className="HCardFormElement">
-      <label>
-        {label}
+      <label className="HCardFormElement__label">
+        <span className="HCardFormElement__label__text">{label}</span>
         <input
           type="text"
           name={name}

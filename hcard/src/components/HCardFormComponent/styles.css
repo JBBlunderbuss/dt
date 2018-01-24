@@ -22,18 +22,62 @@
 
 .HCardForm {
     flex: 1;
-text-align: left;
+    text-align: left;
+    padding: 40px;
+}
 
+.HCardForm__title {
+    font-size: 28px;
+    color: #2c3e50;
+    font-family: "Merriweather Sans";   
+    font-weight: 800;
+    margin: 0;
 }
 
 .HCardForm__fieldset {
     border: 0px;
     padding: 0;
+    margin: 20px 0;
 }
+
+.HCardForm__fieldset__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .HCardForm__legend {
     width: 100%;
+    color:#b5bdc0;
+    text-transform: uppercase;
     border-bottom: 1px solid #b0b8bc;
+    margin-bottom: 5px;
 }
+
+
+
+.HCardForm__actions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.HCardForm__btn {
+    cursor: pointer;
+    flex: 1;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 0px;
+    color: #fff;
+    background: #627b8b;
+    padding: 15px;
+    border-bottom: 2px solid #3f515d;
+    max-width: 48%; 
+}
+.HCardForm__btn--primary {
+    background: #3498db;
+}
+
 
 @media all and (min-width: 1050px) {
 

@@ -23,24 +23,53 @@
 .HCardPreview {
     flex: 1;
     background: #e1e4e7;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
 .HCardPreview__card {
     margin: 45px;
 }
 
-.HCardPreview__details {
- background: #fff;
- border-bottom: 2px solid #9a9a9a;
+.HCardPreview__title {
+    text-align: right;
+    color: #95a5a6;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 5px;
 }
-
-.HCardPreview__name {
+ 
+.HCardPreview__header {
     min-height: 100px;
     color: #fff;
     font-size: 24px;
     font-family: "Merriweather";
     background: #2c3e50;
     margin: 0;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.HCardPreview__name {
+    margin: 0;
+    padding: 20px;
+}
+
+.HCardPreview__profile {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border: 1px solid #b2b2b2;
+}
+
+.HCardPreview__details {
+    background: #fff;
+    border-bottom: 2px solid #9a9a9a;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
 }
 
 @media all and (min-width: 1050px) {

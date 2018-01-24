@@ -21,4 +21,22 @@
 
 
 .HCardFormElement {
+    flex: 0 1;
+    margin: 15px 0 0 ;
+}
+
+ .HCardFormElement__label__text {
+    text-transform: uppercase;
+    display: block;
+ }
+
+.HCardFormElement__input {
+    margin-top: 2px;
+    border: 1px solid #c3c4c3;
+    border-radius: 5px; 
+    padding: 7px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    width: 190px;
 }

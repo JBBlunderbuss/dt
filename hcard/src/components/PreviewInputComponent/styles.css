@@ -25,8 +25,16 @@
     color: #34495e;
     font-size: 10px;
     min-height: 25px;
-    margin: 0 25px ;
     border-bottom: 1px solid #dbdfe1;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.PreviewInput--half {
+    width: 50%;
+}
+.PreviewInput__label{
+    width: 65px;
 }
 
 .PreviewInput__value {

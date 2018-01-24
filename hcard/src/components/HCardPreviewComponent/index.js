@@ -24,14 +24,18 @@ class HCardPreview extends Component {
       <div className="HCardPreview">
         <div className="HCardPreview__card">
           <h2 className="HCardPreview__title">HCARD PREVIEW</h2>
-          <h3 className="HCardPreview__name">{`${name} ${surname}`}</h3>
+
+          <div className="HCardPreview__header">
+            <h3 className="HCardPreview__name">{`${name} ${surname}`}</h3>
+            <img src="/profile.png" className="HCardPreview__profile" />
+          </div>
           <div className="HCardPreview__details">
             <PreviewInput label="EMAIL" value={email} />
             <PreviewInput label="PHONE" value={phone} />
             <PreviewInput label="ADDRESS" value={address} />
             <PreviewInput label="" value={address2} />
-            <PreviewInput label="postcode" value={postcode} size="half" />
-            <PreviewInput label="country" value={country} size="half" />
+            <PreviewInput label="POSTCODE" value={postcode} size="half" />
+            <PreviewInput label="COUNTRY" value={country} size="half" />
           </div>
         </div>
       </div>
