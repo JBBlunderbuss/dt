@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 import HCardPreview from '../HCardPreviewComponent';
 import HCardForm from '../HCardFormComponent';
 import './styles.css';
+import HCardFormElement from '../HCardFormElementComponent';
 
 const initialState = {
-  card: {
-    name: ''
-  }
+  name: '',
+  email: '',
+  surname: '',
+  phone: '',
+  address1: '',
+  street: '',
+  suburb: '',
+  state: '',
+  postcode: '',
+  country: ''
 };
 
 class HCardComponent extends Component {
@@ -15,11 +23,16 @@ class HCardComponent extends Component {
     this.state = initialState;
   }
 
+  handleChange = event => {
+    console.log(event.target.value, event.target.name);
+    this.setState({ [event.target.name]: event.target.value });
+  };
+
   render() {
     return (
       <div className="HCard">
-        <HCardForm />
-        <HCardPreview card={this.state.card} />
+        <HCardForm handleChange={this.handleChange} card={this.state} />
+        <HCardPreview card={this.state} />
       </div>
     );
   }

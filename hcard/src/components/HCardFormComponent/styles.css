@@ -22,6 +22,17 @@
 
 .HCardForm {
     flex: 1;
+text-align: left;
+
+}
+
+.HCardForm__fieldset {
+    border: 0px;
+    padding: 0;
+}
+.HCardForm__legend {
+    width: 100%;
+    border-bottom: 1px solid #b0b8bc;
 }
 
 @media all and (min-width: 1050px) {

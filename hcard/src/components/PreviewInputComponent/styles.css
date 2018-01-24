@@ -1,0 +1,35 @@
+/* normally I would use SCSS */
+
+
+/* tweaked from bootstrap 4 
+@media all and (min-width: 575px) { 
+
+}
+
+@media all and (min-width: 768px) { 
+
+} 
+
+@media all and (min-width: 991px) { 
+
+} 
+
+@media all and (min-width: 1199px) {
+
+} 
+*/
+
+
+.PreviewInput {
+    text-align: left;
+    color: #34495e;
+    font-size: 10px;
+    min-height: 25px;
+    margin: 0 25px ;
+    border-bottom: 1px solid #dbdfe1;
+}
+
+.PreviewInput__value {
+    color: #000;
+    font-size: 16px;
+}
